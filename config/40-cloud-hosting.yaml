@@ -24,6 +24,10 @@ endpoints:
     <<: *cloud_defaults
     url: https://auth.vercel.com/
 
+  - name: vercel-security
+    <<: *cloud_defaults
+    url: https://security.vercel.com/
+
   - name: netlify
     <<: *cloud_defaults
     url: https://www.netlify.com/

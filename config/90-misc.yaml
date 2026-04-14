@@ -1,0 +1,17 @@
+# Miscellaneous websites that do not fit existing groups.
+misc-defaults: &misc_defaults
+  group: Misc
+  interval: 60s
+  client:
+    timeout: 10s
+  headers:
+    User-Agent: "tech-connectivity-monitor/1.0"
+    Accept: "*/*"
+  conditions:
+    - "[STATUS] >= 200"
+    - "[STATUS] < 400"
+
+endpoints:
+  - name: ignitelimit
+    <<: *misc_defaults
+    url: https://www.ignitelimit.com/

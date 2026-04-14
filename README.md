@@ -17,6 +17,8 @@ The inventory is grouped across:
 - Runtimes & OS
 - DevOps
 - Security
+- Let's Encrypt
+- Misc
 
 ## Stack
 
@@ -42,7 +44,9 @@ The inventory is grouped across:
 │   ├── 50-data-platforms.yaml
 │   ├── 60-runtimes-and-os.yaml
 │   ├── 70-devops-and-observability.yaml
-│   └── 80-security-and-identity.yaml
+│   ├── 80-security-and-identity.yaml
+│   ├── 81-letsencrypt.yaml
+│   └── 90-misc.yaml
 └── data/
 ```
 

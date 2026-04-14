@@ -12,10 +12,6 @@ security-defaults: &security_defaults
     - "[STATUS] < 400"
 
 endpoints:
-  - name: letsencrypt
-    <<: *security_defaults
-    url: https://letsencrypt.org/
-
   - name: certum
     <<: *security_defaults
     url: https://www.certum.eu/
