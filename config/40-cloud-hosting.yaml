@@ -20,6 +20,10 @@ endpoints:
     <<: *cloud_defaults
     url: https://vercel.app/
 
+  - name: vercel-auth
+    <<: *cloud_defaults
+    url: https://auth.vercel.com/
+
   - name: netlify
     <<: *cloud_defaults
     url: https://www.netlify.com/

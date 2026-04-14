@@ -1,4 +1,4 @@
-# NOC
+# KEPLER
 
 Website and service connectivity monitoring with Gatus.
 

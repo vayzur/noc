@@ -16,6 +16,10 @@ endpoints:
     <<: *security_defaults
     url: https://letsencrypt.org/
 
+  - name: certum
+    <<: *security_defaults
+    url: https://www.certum.eu/
+
   - name: zerossl
     <<: *security_defaults
     url: https://zerossl.com/
@@ -28,6 +32,10 @@ endpoints:
     <<: *security_defaults
     url: https://www.ssllabs.com/
 
+  - name: digicert
+    <<: *security_defaults
+    url: https://www.digicert.com/
+
   - name: auth0
     <<: *security_defaults
     url: https://auth0.com/
@@ -35,6 +43,10 @@ endpoints:
   - name: okta
     <<: *security_defaults
     url: https://www.okta.com/
+
+  - name: sectigo
+    <<: *security_defaults
+    url: https://sectigo.com/
 
   - name: onepassword
     <<: *security_defaults

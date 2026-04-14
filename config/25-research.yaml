@@ -27,3 +27,11 @@ endpoints:
   - name: pubmed
     <<: *research_defaults
     url: https://pubmed.ncbi.nlm.nih.gov/
+
+  - name: ieee
+    <<: *research_defaults
+    url: https://www.ieee.org/
+
+  - name: tandfonline
+    <<: *research_defaults
+    url: https://www.tandfonline.com/

@@ -28,6 +28,10 @@ endpoints:
     <<: *code_dev_defaults
     url: https://sourceforge.net/
 
+  - name: fsdn
+    <<: *code_dev_defaults
+    url: https://fsdn.com/
+
   - name: stackoverflow
     <<: *code_dev_defaults
     url: https://stackoverflow.com/
@@ -43,6 +47,10 @@ endpoints:
   - name: readthedocs
     <<: *code_dev_defaults
     url: https://readthedocs.org/
+
+  - name: askubuntu
+    <<: *code_dev_defaults
+    url: https://askubuntu.com/
 
   - name: vscode
     <<: *code_dev_defaults

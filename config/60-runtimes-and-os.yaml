@@ -16,6 +16,10 @@ endpoints:
     <<: *runtime_defaults
     url: https://www.python.org/
 
+  - name: python-devguide
+    <<: *runtime_defaults
+    url: https://devguide.python.org/
+
   - name: nodejs
     <<: *runtime_defaults
     url: https://nodejs.org/
