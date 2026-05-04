@@ -20,29 +20,57 @@ endpoints:
     <<: *package_defaults
     url: https://www.npmjs.com/
 
+  - name: npm-registry
+    <<: *package_defaults
+    url: https://registry.npmjs.org/
+
   - name: yarnpkg
     <<: *package_defaults
     url: https://yarnpkg.com/
+
+  - name: yarn-registry
+    <<: *package_defaults
+    url: https://registry.yarnpkg.com/
 
   - name: rubygems
     <<: *package_defaults
     url: https://rubygems.org/
 
+  - name: rubygems-index
+    <<: *package_defaults
+    url: https://index.rubygems.org/
+
   - name: crates
     <<: *package_defaults
     url: https://crates.io/
+
+  - name: crates-index
+    <<: *package_defaults
+    url: https://index.crates.io/
 
   - name: packagist
     <<: *package_defaults
     url: https://packagist.org/
 
+  - name: packagist-repo
+    <<: *package_defaults
+    url: https://repo.packagist.org/
+
   - name: maven-central
     <<: *package_defaults
     url: https://repo.maven.apache.org/maven2/
 
+  - name: maven-repo1
+    <<: *package_defaults
+    url: https://repo1.maven.org/maven2/
+
   - name: maven-search
     <<: *package_defaults
     url: https://search.maven.org/
+
+  - name: jitpack
+    <<: *package_defaults
+    url: https://jitpack.io/
 
   - name: composer
     <<: *package_defaults
@@ -51,6 +79,10 @@ endpoints:
   - name: nuget
     <<: *package_defaults
     url: https://www.nuget.org/
+
+  - name: nuget-api
+    <<: *package_defaults
+    url: https://api.nuget.org/
 
   - name: pub-dev
     <<: *package_defaults
@@ -68,6 +100,18 @@ endpoints:
     <<: *package_defaults
     url: https://artifacthub.io/
 
+  - name: pkgs-k8s
+    <<: *package_defaults
+    url: https://pkgs.k8s.io/
+
+  - name: golang-proxy
+    <<: *package_defaults
+    url: https://proxy.golang.org/
+
+  - name: golang-sumdb
+    <<: *package_defaults
+    url: https://sum.golang.org/
+
   - name: gradle-plugins
     <<: *package_defaults
     url: https://plugins.gradle.org/
@@ -76,9 +120,33 @@ endpoints:
     <<: *package_defaults
     url: https://brew.sh/
 
+  - name: formulae-brew
+    <<: *package_defaults
+    url: https://formulae.brew.sh/
+
+  - name: packages-microsoft
+    <<: *package_defaults
+    url: https://packages.microsoft.com/
+
+  - name: packages-cloud-google
+    <<: *package_defaults
+    url: https://packages.cloud.google.com/
+
+  - name: apt-llvm
+    <<: *package_defaults
+    url: https://apt.llvm.org/
+
+  - name: apt-kitware
+    <<: *package_defaults
+    url: https://apt.kitware.com/
+
   - name: anaconda
     <<: *package_defaults
     url: https://anaconda.org/
+
+  - name: anaconda-repo
+    <<: *package_defaults
+    url: https://repo.anaconda.com/
 
   - name: conda-forge
     <<: *package_defaults

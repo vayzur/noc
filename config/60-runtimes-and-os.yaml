@@ -104,6 +104,14 @@ endpoints:
     <<: *runtime_defaults
     url: https://deb.debian.org/
 
+  - name: debian-security
+    <<: *runtime_defaults
+    url: https://security.debian.org/
+
+  - name: debian-archive
+    <<: *runtime_defaults
+    url: https://archive.debian.org/
+
   - name: raspberrypi
     <<: *runtime_defaults
     url: https://www.raspberrypi.com/
@@ -112,21 +120,45 @@ endpoints:
     <<: *runtime_defaults
     url: https://archlinux.org/
 
+  - name: arch-mirror
+    <<: *runtime_defaults
+    url: https://geo.mirror.pkgbuild.com/
+
   - name: alpine
     <<: *runtime_defaults
     url: https://alpinelinux.org/
+
+  - name: alpine-repo
+    <<: *runtime_defaults
+    url: https://dl-cdn.alpinelinux.org/
 
   - name: fedora
     <<: *runtime_defaults
     url: https://fedoraproject.org/
 
+  - name: fedora-download
+    <<: *runtime_defaults
+    url: https://download.fedoraproject.org/
+
+  - name: fedora-mirror
+    <<: *runtime_defaults
+    url: https://mirrors.fedoraproject.org/
+
   - name: opensuse
     <<: *runtime_defaults
     url: https://www.opensuse.org/
 
+  - name: opensuse-download
+    <<: *runtime_defaults
+    url: https://download.opensuse.org/
+
   - name: nixos
     <<: *runtime_defaults
     url: https://nixos.org/
+
+  - name: nixos-cache
+    <<: *runtime_defaults
+    url: https://cache.nixos.org/
 
   - name: linux-mint
     <<: *runtime_defaults
@@ -143,3 +175,75 @@ endpoints:
   - name: freebsd
     <<: *runtime_defaults
     url: https://www.freebsd.org/
+
+  - name: freebsd-pkg
+    <<: *runtime_defaults
+    url: https://pkg.freebsd.org/
+
+  - name: freebsd-ports
+    <<: *runtime_defaults
+    url: https://www.freshports.org/
+
+  - name: voidlinux
+    <<: *runtime_defaults
+    url: https://voidlinux.org/
+
+  - name: void-repo
+    <<: *runtime_defaults
+    url: https://repo-default.voidlinux.org/
+
+  - name: mirror-ustc
+    <<: *runtime_defaults
+    url: https://mirrors.ustc.edu.cn/
+
+  - name: mirror-yandex
+    <<: *runtime_defaults
+    url: https://mirror.yandex.ru/
+
+  - name: mirror-tuna
+    <<: *runtime_defaults
+    url: https://mirrors.tuna.tsinghua.edu.cn/
+
+  - name: mirror-nyist
+    <<: *runtime_defaults
+    url: https://mirror.nyist.edu.cn/
+
+  - name: mirror-huaweicloud
+    <<: *runtime_defaults
+    url: https://mirrors.huaweicloud.com/
+
+  - name: gentoo
+    <<: *runtime_defaults
+    url: https://www.gentoo.org/
+
+  - name: gentoo-distfiles
+    <<: *runtime_defaults
+    url: https://distfiles.gentoo.org/
+
+  - name: gentoo-packages
+    <<: *runtime_defaults
+    url: https://packages.gentoo.org/
+
+  - name: centos
+    <<: *runtime_defaults
+    url: https://www.centos.org/
+
+  - name: rocky-repo
+    <<: *runtime_defaults
+    url: https://repo.rockylinux.org/
+
+  - name: almalinux-repo
+    <<: *runtime_defaults
+    url: https://repo.almalinux.org/
+
+  - name: mageia
+    <<: *runtime_defaults
+    url: https://www.mageia.org/
+
+  - name: slackware
+    <<: *runtime_defaults
+    url: https://www.slackware.com/
+
+  - name: kali
+    <<: *runtime_defaults
+    url: https://www.kali.org/
